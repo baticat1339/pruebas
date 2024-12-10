@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burnout</title>
+    <link rel="stylesheet" href="css/burnout.css">
+</head>
+<body>
+    <header>
+        <h1>Burnout</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>El burnout, también conocido como síndrome de desgaste profesional, es una condición caracterizada por agotamiento emocional, despersonalización y baja realización personal en el trabajo (Maslach & Jackson, 1981).</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Clave</h2>
+            <ul>
+                <li>Agotamiento físico y emocional persistente.</li>
+                <li>Falta de motivación y disminución del desempeño laboral.</li>
+                <li>Actitudes cínicas o negativas hacia el trabajo (Maslach & Leiter, 2016).</li>
+            </ul>
+        </section>
+        <section class="techniques">
+            <h2>Estrategias Prácticas</h2>
+            <ul>
+                <li>Establece límites claros entre el trabajo y la vida personal.</li>
+                <li>Practica mindfulness para reducir el estrés laboral (Hülsheger et al., 2013).</li>
+                <li>Realiza pausas activas durante la jornada para evitar el agotamiento.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Planifica tu Día</h2>
+            <p>Organiza tu día con un enfoque en equilibrio laboral y personal.</p>
+            <textarea id="burnout-plan" rows="6" placeholder="Describe cómo organizarás tu día..."></textarea>
+            <button onclick="savePlan()">Guardar Plan</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>Maslach, C., & Jackson, S. E. (1981). The measurement of experienced burnout. *Journal of Occupational Behavior*, 2(2), 99-113. https://doi.org/10.1002/job.4030020205</li>
+                <li>Maslach, C., & Leiter, M. P. (2016). *Burnout: A multidimensional perspective*. Routledge.</li>
+                <li>Hülsheger, U. R., Alberts, H. J., Feinholdt, A., & Lang, J. W. (2013). Benefits of mindfulness at work: The role of mindfulness in emotion regulation, emotional exhaustion, and job satisfaction. *Journal of Applied Psychology*, 98(2), 310-325. https://doi.org/10.1037/a0031313</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/burnout.js"></script>
+</body>
+</html>

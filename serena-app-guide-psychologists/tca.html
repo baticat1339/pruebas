@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastornos de la Conducta Alimentaria (TCA)</title>
+    <link rel="stylesheet" href="css/tca.css">
+</head>
+<body>
+    <header>
+        <h1>Trastornos de la Conducta Alimentaria (TCA)</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>Los Trastornos de la Conducta Alimentaria (TCA) son afecciones psicológicas que afectan los hábitos alimenticios, la percepción del cuerpo y la salud en general. Según el DSM-5 (APA, 2020), incluyen la anorexia nerviosa, bulimia nerviosa y trastorno por atracón.</p>
+        </section>
+        <section class="types">
+            <h2>Tipos Principales</h2>
+            <ul>
+                <li><strong>Anorexia Nerviosa:</strong> Restricción severa de alimentos, miedo intenso a ganar peso, distorsión de la imagen corporal.</li>
+                <li><strong>Bulimia Nerviosa:</strong> Episodios de atracones seguidos de conductas compensatorias como vómitos o ejercicio excesivo.</li>
+                <li><strong>Trastorno por Atracón:</strong> Episodios recurrentes de consumo excesivo de alimentos sin conductas compensatorias (Fairburn & Harrison, 2003).</li>
+            </ul>
+        </section>
+        <section class="causes">
+            <h2>Causas y Factores de Riesgo</h2>
+            <p>Los TCA están relacionados con factores biológicos, psicológicos y sociales, incluyendo presión social para la delgadez, baja autoestima y predisposición genética.</p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias de Afrontamiento</h2>
+            <ul>
+                <li>Busca ayuda profesional, incluyendo terapia psicológica y nutricional.</li>
+                <li>Practica la autoaceptación y desafía los estándares de belleza irreales.</li>
+                <li>Utiliza un diario para registrar emociones relacionadas con la alimentación (Treasure et al., 2020).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Diario de Emociones y Alimentación</h2>
+            <p>Registra tus emociones antes y después de las comidas para identificar patrones.</p>
+            <textarea id="tca-diary" rows="6" placeholder="Escribe tus emociones y hábitos alimenticios aquí..."></textarea>
+            <button onclick="saveTcaDiary()">Guardar Registro</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Fairburn, C. G., & Harrison, P. J. (2003). Eating disorders. *The Lancet*, 361(9355), 407-416. https://doi.org/10.1016/S0140-6736(03)12378-1</li>
+                <li>Treasure, J., Stein, D., & Maguire, S. (2020). Treatment of eating disorders: A clinical handbook. Guilford Press.</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/tca.js"></script>
+</body>
+</html>

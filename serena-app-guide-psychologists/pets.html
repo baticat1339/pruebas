@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pérdida de Mascotas</title>
+    <link rel="stylesheet" href="css/pets.css">
+</head>
+<body>
+    <header>
+        <h1>Pérdida de Mascotas</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>La pérdida de una mascota puede ser un proceso doloroso, ya que las mascotas son miembros importantes de nuestras familias. Según Archer (1997), el vínculo humano-animal es tan significativo que, ante la pérdida de una mascota, muchas personas experimentan un duelo similar al que se siente por la pérdida de un ser humano.</p>
+        </section>
+        <section class="tips">
+            <h2>Consejos Prácticos</h2>
+            <ul>
+                <li>"Los animales proporcionan apoyo social significativo, reduciendo la ansiedad y mejorando el bienestar emocional" (McNicholas & Collis, 2006, p. 49).</li>
+                <li>Permítete sentir tus emociones. Como Wrobel y Dye (2003) señalan, el duelo por mascotas incluye "la pérdida de un vínculo emocional profundo que impacta tanto a nivel cognitivo como conductual" (p. 390).</li>
+                <li>Crea un espacio en casa para honrar su memoria, como un rincón con fotos o recuerdos.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Carta a tu Mascota</h2>
+            <p>Escribe una carta a tu mascota expresando tus sentimientos y recuerdos más preciados.</p>
+            <textarea id="pet-letter" rows="6" placeholder="Escribe aquí tu carta..."></textarea>
+            <button onclick="saveLetter()">Guardar Carta</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>Archer, J. (1997). Why do people love their pets? *Evolution and Human Behavior*, 18(4), 237-259. https://doi.org/10.1016/S1090-5138(99)80013-4</li>
+                <li>McNicholas, J., & Collis, G. M. (2006). Animals as social supports: Insights for understanding animal-assisted therapy. *Handbook on Animal-Assisted Therapy*, 49-71. https://doi.org/10.1016/B978-012369484-3/50006-8</li>
+                <li>Wrobel, T. A., & Dye, A. L. (2003). Grieving pet death: Normative, gender, and attachment issues. *Omega-Journal of Death and Dying*, 47(4), 385-393. https://doi.org/10.2190/XP3A-F9YB-1M6X-F0WX</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver a Duelo</button>
+    </main>
+    <script src="js/pets.js"></script>
+</body>
+</html>

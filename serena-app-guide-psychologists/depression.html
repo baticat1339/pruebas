@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depresión</title>
+    <link rel="stylesheet" href="css/depression.css">
+</head>
+<body>
+    <header>
+        <h1>Depresión</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>La depresión es un trastorno del estado de ánimo que afecta negativamente cómo te sientes, piensas y manejas las actividades diarias. Según Beck (1967), la depresión está vinculada a patrones de pensamiento negativo y a un sesgo en la interpretación de eventos.</p>
+        </section>
+        <section class="types">
+            <h2>Tipos y Contextos</h2>
+            <ul>
+                <li><strong>Depresión en adultos:</strong> Incluye síntomas como tristeza persistente, pérdida de interés y fatiga.</li>
+                <li><strong>Depresión en niños y adolescentes:</strong> Puede manifestarse como irritabilidad, bajo rendimiento escolar y aislamiento social (APA, 2020).</li>
+            </ul>
+        </section>
+        <section class="techniques">
+            <h2>Estrategias Prácticas</h2>
+            <ul>
+                <li>Establece una rutina diaria para crear una sensación de estructura y estabilidad.</li>
+                <li>Involúcrate en actividades físicas, ya que el ejercicio regular puede mejorar el estado de ánimo (Blumenthal et al., 1999).</li>
+                <li>Practica técnicas de gratitud escribiendo tres cosas positivas al final de cada día.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Diario de Gratitud</h2>
+            <p>Escribe tres cosas positivas que te sucedieron hoy para cambiar tu enfoque hacia lo positivo.</p>
+            <textarea id="gratitude-diary" rows="6" placeholder="Escribe aquí tus pensamientos..."></textarea>
+            <button onclick="saveGratitude()">Guardar Diario</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Beck, A. T. (1967). *Depression: Clinical, experimental, and theoretical aspects*. Harper & Row.</li>
+                <li>Blumenthal, J. A., Babyak, M. A., Moore, K. A., Craighead, W. E., Herman, S., Khatri, P., ... & Doraiswamy, P. M. (1999). Effects of exercise training on older patients with major depression. *Archives of Internal Medicine*, 159(19), 2349-2356. https://doi.org/10.1001/archinte.159.19.2349</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/depression.js"></script>
+</body>
+</html>

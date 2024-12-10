@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastorno Límite de la Personalidad (TLP)</title>
+    <link rel="stylesheet" href="css/tlp.css">
+</head>
+<body>
+    <header>
+        <h1>Trastorno Límite de la Personalidad (TLP)</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>El Trastorno Límite de la Personalidad (TLP) es un trastorno de salud mental que afecta cómo una persona regula sus emociones, relaciones y autoimagen. Según el DSM-5 (APA, 2020), se caracteriza por inestabilidad emocional, impulsividad y miedo al abandono.</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Principales</h2>
+            <ul>
+                <li>Relaciones intensas e inestables.</li>
+                <li>Impulsividad en al menos dos áreas potencialmente dañinas (como gastos, consumo de sustancias).</li>
+                <li>Cambios rápidos en la autoimagen y emociones intensas (Linehan, 1993).</li>
+            </ul>
+        </section>
+        <section class="causes">
+            <h2>Causas y Factores de Riesgo</h2>
+            <p>El TLP puede estar influido por factores genéticos, experiencias traumáticas en la infancia y desequilibrios en la regulación emocional.</p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias de Afrontamiento</h2>
+            <ul>
+                <li>Practica la terapia dialéctico-conductual (TDC), que ha mostrado eficacia en la regulación emocional.</li>
+                <li>Desarrolla un sistema de apoyo social para enfrentar el miedo al abandono.</li>
+                <li>Usa técnicas de mindfulness para mejorar la tolerancia al malestar (Koons et al., 2001).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Registro de Emociones Intensas</h2>
+            <p>Registra las emociones intensas que experimentas, identificando su causa y posibles formas de afrontarlas.</p>
+            <textarea id="emotions-diary" rows="6" placeholder="Describe tus emociones y estrategias de afrontamiento..."></textarea>
+            <button onclick="saveEmotionDiary()">Guardar Registro</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Linehan, M. M. (1993). *Cognitive-behavioral treatment of borderline personality disorder*. Guilford Press.</li>
+                <li>Koons, C. R., Robins, C. J., Tweed, J. L., Lynch, T. R., Gonzalez, A. M., Morse, J. Q., & Bastian, L. A. (2001). Efficacy of dialectical behavior therapy in women veterans with borderline personality disorder. *Behavior Therapy*, 32(2), 371-390. https://doi.org/10.1016/S0005-7894(01)80009-5</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/tlp.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditación</title>
+    <link rel="stylesheet" href="css/meditation.css">
+</head>
+<body>
+    <header>
+        <h1>Meditación</h1>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2>¿Qué es la meditación?</h2>
+            <p>La meditación es una práctica milenaria que busca entrenar la mente para alcanzar estados de calma, claridad y concentración. Estudios científicos han demostrado sus beneficios para reducir el estrés, mejorar la salud emocional y aumentar la capacidad de enfoque.</p>
+        </section>
+        <section class="types">
+            <h2>Tipos de Meditación</h2>
+            <div class="type">
+                <h3>Meditación Mindfulness</h3>
+                <p>Consiste en enfocar la atención plena en el momento presente, aceptando pensamientos y emociones sin juzgarlos.</p>
+            </div>
+            <div class="type">
+                <h3>Meditación Guiada</h3>
+                <p>Usa grabaciones o instructores que te guían a través de visualizaciones y técnicas de relajación.</p>
+            </div>
+            <div class="type">
+                <h3>Meditación Transcendental</h3>
+                <p>Involucra la repetición de un mantra personal para alcanzar un estado de relajación profunda.</p>
+            </div>
+            <div class="type">
+                <h3>Meditación de Respiración Consciente</h3>
+                <p>Se enfoca en observar y regular la respiración para calmar la mente y mejorar la atención.</p>
+            </div>
+        </section>
+        <section class="exercises">
+            <h2>Ejercicios Prácticos</h2>
+            <ul>
+                <li><strong>Mindfulness:</strong> Dedica 5 minutos a observar tu respiración, sin intentar cambiarla.</li>
+                <li><strong>Guiada:</strong> Escucha una grabación relajante que te lleve a un estado de calma profunda.</li>
+                <li><strong>Transcendental:</strong> Repite un mantra simple como "Om" durante 10 minutos.</li>
+                <li><strong>Respiración Consciente:</strong> Inhala contando hasta 4, retén la respiración 4 segundos y exhala en 4 segundos.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Temporizador de Meditación</h2>
+            <p>Selecciona un tiempo y comienza tu sesión.</p>
+            <form>
+                <label for="time">Duración (minutos):</label>
+                <input type="number" id="time" min="1" max="60" value="5">
+                <button type="button" onclick="startTimer()">Iniciar</button>
+            </form>
+            <p id="timer"></p>
+        </section>
+        <section class="quotes">
+            <h2>Frases Inspiradoras</h2>
+            <blockquote>"La meditación es la forma de entrenar la mente para la calma y la claridad."</blockquote>
+            <blockquote>"Respira profundamente. Estás aquí, estás vivo, y este momento es todo lo que necesitas."</blockquote>
+        </section>
+        <section class="resources">
+            <h2>Recursos Adicionales</h2>
+            <ul>
+                <li><a href="https://www.headspace.com" target="_blank">Headspace: Guías de meditación</a></li>
+                <li><a href="https://www.calm.com" target="_blank">Calm: Técnicas de relajación</a></li>
+                <li><a href="https://www.mindful.org" target="_blank">Mindful.org: Artículos sobre mindfulness</a></li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/meditation.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDAH</title>
+    <link rel="stylesheet" href="css/adhd.css">
+</head>
+<body>
+    <header>
+        <h1>Trastorno por Déficit de Atención e Hiperactividad (TDAH)</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>El TDAH es un trastorno neurodesarrollamental que afecta la atención, el control de impulsos y la autorregulación. Según Barkley (2014), las personas con TDAH muestran dificultades en la función ejecutiva, lo que impacta su organización y capacidad para planificar.</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Clave</h2>
+            <ul>
+                <li>Dificultad para mantener la atención en tareas o actividades.</li>
+                <li>Impulsividad, como hablar fuera de turno o dificultad para esperar.</li>
+                <li>Hiperactividad, especialmente en niños (American Psychiatric Association, 2020).</li>
+            </ul>
+        </section>
+        <section class="techniques">
+            <h2>Estrategias Prácticas</h2>
+            <ul>
+                <li>Utiliza herramientas visuales, como listas de tareas, para mejorar la organización.</li>
+                <li>Establece rutinas diarias que proporcionen estructura y predictibilidad (DuPaul & Stoner, 2014).</li>
+                <li>Practica ejercicios de atención plena para mejorar la concentración.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Lista de Tareas</h2>
+            <p>Crea una lista de tareas diarias y prioriza las actividades más importantes.</p>
+            <textarea id="adhd-tasks" rows="6" placeholder="Escribe tu lista de tareas aquí..."></textarea>
+            <button onclick="saveTasks()">Guardar Lista</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Barkley, R. A. (2014). *Attention-deficit hyperactivity disorder: A handbook for diagnosis and treatment* (4th ed.). Guilford Press.</li>
+                <li>DuPaul, G. J., & Stoner, G. (2014). *ADHD in the schools: Assessment and intervention strategies* (3rd ed.). Guilford Press.</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/adhd.js"></script>
+</body>
+</html>

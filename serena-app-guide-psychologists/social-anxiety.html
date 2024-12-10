@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansiedad Social</title>
+    <link rel="stylesheet" href="css/social-anxiety.css">
+</head>
+<body>
+    <header>
+        <h1>Ansiedad Social</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>La ansiedad social es un trastorno caracterizado por un miedo intenso y persistente a situaciones sociales, a menudo relacionado con la preocupación por ser evaluado negativamente por los demás (Stein & Stein, 2008).</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Comunes</h2>
+            <ul>
+                <li>Miedo a hablar en público o interactuar con desconocidos.</li>
+                <li>Evitar situaciones sociales por temor al juicio.</li>
+                <li>Síntomas físicos como sudoración, rubor o taquicardia (American Psychiatric Association, 2020).</li>
+            </ul>
+        </section>
+        <section class="techniques">
+            <h2>Estrategias Prácticas</h2>
+            <ul>
+                <li>Practica la exposición gradual a situaciones sociales para reducir el miedo.</li>
+                <li>Utiliza técnicas de reestructuración cognitiva para desafiar pensamientos negativos (Clark & Wells, 1995).</li>
+                <li>Realiza ejercicios de relajación, como respiración profunda, antes de eventos sociales.</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Diario de Exposición</h2>
+            <p>Registra tus experiencias al enfrentar situaciones sociales para evaluar tu progreso.</p>
+            <textarea id="social-diary" rows="6" placeholder="Describe una experiencia social reciente..."></textarea>
+            <button onclick="saveSocialDiary()">Guardar Diario</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Stein, M. B., & Stein, D. J. (2008). Social anxiety disorder. *The Lancet*, 371(9618), 1115-1125. https://doi.org/10.1016/S0140-6736(08)60488-2</li>
+                <li>Clark, D. M., & Wells, A. (1995). A cognitive model of social phobia. En R. G. Heimberg, M. R. Liebowitz, D. A. Hope, & F. R. Schneier (Eds.), *Social phobia: Diagnosis, assessment, and treatment* (pp. 69-93). Guilford Press.</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/social-anxiety.js"></script>
+</body>
+</html>

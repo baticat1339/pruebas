@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Trastornos Alimentarios</title>
+    <link rel="stylesheet" href="css/test-eating-disorder.css">
+</head>
+<body>
+    <header>
+        <h1>Test de Trastornos Alimentarios</h1>
+    </header>
+    <main>
+        <section class="introduction">
+            <p>Este test está diseñado para ayudarte a identificar si podrías estar experimentando síntomas relacionados con Test de Trastornos Alimentarios. Responde las preguntas honestamente. Tus respuestas son completamente confidenciales.</p>
+        </section>
+        <section class="test">
+            <form id="test-eating-disorder-test">
+                <div class="question">
+                    <p>1. ¿Te sientes identificado con este aspecto del trastorno?</p>
+                    <label><input type="radio" name="q1" value="3"> Siempre</label>
+                    <label><input type="radio" name="q1" value="2"> A menudo</label>
+                    <label><input type="radio" name="q1" value="1"> Algunas veces</label>
+                    <label><input type="radio" name="q1" value="0"> Nunca</label>
+                </div>
+                <div class="question">
+                    <p>2. ¿Esta experiencia afecta tu día a día?</p>
+                    <label><input type="radio" name="q2" value="3"> Siempre</label>
+                    <label><input type="radio" name="q2" value="2"> A menudo</label>
+                    <label><input type="radio" name="q2" value="1"> Algunas veces</label>
+                    <label><input type="radio" name="q2" value="0"> Nunca</label>
+                </div>
+                <div class="question">
+                    <p>3. ¿Has buscado formas de manejar esta situación?</p>
+                    <label><input type="radio" name="q3" value="3"> Siempre</label>
+                    <label><input type="radio" name="q3" value="2"> A menudo</label>
+                    <label><input type="radio" name="q3" value="1"> Algunas veces</label>
+                    <label><input type="radio" name="q3" value="0"> Nunca</label>
+                </div>
+                <button type="button" onclick="calculateScore()">Enviar Respuestas</button>
+            </form>
+        </section>
+        <section id="result" class="result">
+            <h2>Resultados</h2>
+            <p id="feedback"></p>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/test-eating-disorder.js"></script>
+</body>
+</html>

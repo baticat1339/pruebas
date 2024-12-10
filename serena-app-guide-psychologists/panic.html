@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síntomas de Pánico</title>
+    <link rel="stylesheet" href="css/panic.css">
+</head>
+<body>
+    <header>
+        <h1>Síntomas de Pánico</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>Los ataques de pánico son episodios repentinos de miedo intenso que provocan reacciones físicas severas, incluso cuando no hay un peligro real. Según Clark (1986), estos episodios están relacionados con la interpretación catastrófica de sensaciones corporales.</p>
+        </section>
+        <section class="techniques">
+            <h2>Técnicas para Afrontarlos</h2>
+            <ul>
+                <li>Prueba la respiración diafragmática para reducir la hiperventilación. Según Grossman et al. (2001), la respiración controlada puede disminuir significativamente los niveles de ansiedad.</li>
+                <li>Utiliza técnicas de anclaje sensorial, como tocar un objeto frío o enfocar tu vista en algo específico, para regresar al momento presente.</li>
+                <li>Recuerda que los síntomas físicos no son peligrosos; están relacionados con la respuesta de lucha o huida, como explican Craske y Barlow (2008).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Diario de Episodios</h2>
+            <p>Registra tus episodios de pánico para identificar patrones y mejorar tu autocomprensión.</p>
+            <textarea id="panic-diary" rows="6" placeholder="Describe un episodio reciente..."></textarea>
+            <button onclick="saveDiary()">Guardar Diario</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>Clark, D. M. (1986). A cognitive approach to panic. *Behaviour Research and Therapy*, 24(4), 461-470. https://doi.org/10.1016/0005-7967(86)90011-2</li>
+                <li>Grossman, P., Niemann, L., Schmidt, S., & Walach, H. (2001). Mindfulness-based stress reduction and health benefits: A meta-analysis. *Journal of Psychosomatic Research*, 57(1), 35-43. https://doi.org/10.1016/S0022-3999(01)00273-8</li>
+                <li>Craske, M. G., & Barlow, D. H. (2008). *Panic disorder and agoraphobia*. Guilford Press.</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/panic.js"></script>
+</body>
+</html>

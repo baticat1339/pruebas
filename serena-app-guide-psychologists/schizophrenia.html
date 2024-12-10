@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquizofrenia</title>
+    <link rel="stylesheet" href="css/schizophrenia.css">
+</head>
+<body>
+    <header>
+        <h1>Esquizofrenia</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>La esquizofrenia es un trastorno mental grave que afecta cómo una persona piensa, siente y se comporta. Según el DSM-5 (APA, 2020), se caracteriza por síntomas psicóticos como alucinaciones, delirios y pensamiento desorganizado.</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Principales</h2>
+            <ul>
+                <li><strong>Síntomas positivos:</strong> Alucinaciones, delirios, discurso desorganizado.</li>
+                <li><strong>Síntomas negativos:</strong> Aplanamiento afectivo, falta de motivación, aislamiento social.</li>
+                <li><strong>Síntomas cognitivos:</strong> Déficits en la memoria de trabajo, atención y habilidades ejecutivas (Tandon et al., 2009).</li>
+            </ul>
+        </section>
+        <section class="causes">
+            <h2>Causas y Factores de Riesgo</h2>
+            <p>La esquizofrenia tiene una base multifactorial que incluye factores genéticos, desequilibrios químicos en el cerebro y estrés ambiental.</p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias de Afrontamiento</h2>
+            <ul>
+                <li>Sigue el tratamiento prescrito, que puede incluir antipsicóticos y terapia psicológica.</li>
+                <li>Desarrolla una red de apoyo con familiares y amigos cercanos.</li>
+                <li>Practica habilidades sociales con el apoyo de un terapeuta especializado (Kurtz, 2012).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Registro de Síntomas</h2>
+            <p>Monitorea tus síntomas diarios para identificar patrones y evaluar tu progreso.</p>
+            <textarea id="symptoms-diary" rows="6" placeholder="Escribe tus síntomas y emociones hoy..."></textarea>
+            <button onclick="saveSymptomsDiary()">Guardar Registro</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Tandon, R., Nasrallah, H. A., & Keshavan, M. S. (2009). Schizophrenia, "just the facts" 4. Clinical features and conceptualization. *Schizophrenia Research*, 110(1-3), 1-23. https://doi.org/10.1016/j.schres.2009.03.005</li>
+                <li>Kurtz, M. M. (2012). *Symptoms of schizophrenia and their impact on everyday functioning*. Guilford Press.</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/schizophrenia.js"></script>
+</body>
+</html>

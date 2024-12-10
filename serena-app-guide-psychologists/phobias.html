@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fobias Específicas</title>
+    <link rel="stylesheet" href="css/phobias.css">
+</head>
+<body>
+    <header>
+        <h1>Fobias Específicas</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>Las fobias específicas son un tipo de trastorno de ansiedad caracterizado por un miedo intenso e irracional a objetos o situaciones particulares. Según el DSM-5 (APA, 2020), incluyen fobias a animales, entornos naturales, sangre-inyecciones-heridas y situaciones específicas.</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Principales</h2>
+            <ul>
+                <li>Miedo extremo e irracional que persiste durante al menos seis meses.</li>
+                <li>Evitar situaciones o cosas asociadas con la fobia.</li>
+                <li>Reacciones físicas como sudoración, temblores o sensación de asfixia (Öst, 1996).</li>
+            </ul>
+        </section>
+        <section class="causes">
+            <h2>Causas y Factores de Riesgo</h2>
+            <p>Las fobias pueden desarrollarse debido a experiencias traumáticas, predisposición genética o aprendizaje observacional.</p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias de Afrontamiento</h2>
+            <ul>
+                <li>Practica la terapia de exposición gradual para desensibilizarte al estímulo temido.</li>
+                <li>Utiliza técnicas de relajación para reducir la ansiedad durante la exposición.</li>
+                <li>Consulta a un profesional para terapia cognitivo-conductual específica para fobias (Choy et al., 2007).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Plan de Exposición Gradual</h2>
+            <p>Crea un plan para enfrentar gradualmente tu fobia, identificando pasos pequeños y alcanzables.</p>
+            <textarea id="phobia-plan" rows="6" placeholder="Escribe tu plan de exposición aquí..."></textarea>
+            <button onclick="savePhobiaPlan()">Guardar Plan</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Öst, L. G. (1996). One-session group treatment of spider phobia. *Behaviour Research and Therapy*, 34(9), 707-715. https://doi.org/10.1016/0005-7967(96)00019-1</li>
+                <li>Choy, Y., Fyer, A. J., & Lipsitz, J. D. (2007). Treatment of specific phobia in adults. *Clinical Psychology Review*, 27(3), 266-286. https://doi.org/10.1016/j.cpr.2006.10.002</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/phobias.js"></script>
+</body>
+</html>

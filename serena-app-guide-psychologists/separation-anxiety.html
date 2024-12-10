@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastorno de Ansiedad por Separación</title>
+    <link rel="stylesheet" href="css/separation-anxiety.css">
+</head>
+<body>
+    <header>
+        <h1>Trastorno de Ansiedad por Separación</h1>
+    </header>
+    <main>
+        <section class="description">
+            <p>El Trastorno de Ansiedad por Separación es un tipo de trastorno de ansiedad caracterizado por un miedo excesivo e inapropiado a separarse de figuras de apego. Según el DSM-5 (APA, 2020), puede presentarse tanto en niños como en adultos.</p>
+        </section>
+        <section class="symptoms">
+            <h2>Síntomas Principales</h2>
+            <ul>
+                <li>Ansiedad extrema al anticipar o experimentar la separación.</li>
+                <li>Pesadillas recurrentes sobre separación.</li>
+                <li>Dolores físicos como náuseas o dolores de cabeza al separarse (Eisen & Silverman, 1993).</li>
+            </ul>
+        </section>
+        <section class="causes">
+            <h2>Causas y Factores de Riesgo</h2>
+            <p>Este trastorno puede ser causado por experiencias traumáticas, predisposición genética o estilos de apego ansioso en la infancia.</p>
+        </section>
+        <section class="strategies">
+            <h2>Estrategias de Afrontamiento</h2>
+            <ul>
+                <li>Practica la exposición gradual a la separación en situaciones controladas.</li>
+                <li>Usa técnicas de relajación para reducir la ansiedad durante los episodios.</li>
+                <li>Consulta a un terapeuta para terapia cognitivo-conductual específica (Kendall et al., 1992).</li>
+            </ul>
+        </section>
+        <section class="activity">
+            <h2>Actividad: Diario de Exposición</h2>
+            <p>Registra tus experiencias al enfrentar la separación y evalúa tu progreso.</p>
+            <textarea id="separation-diary" rows="6" placeholder="Describe tu experiencia y cómo te sentiste..."></textarea>
+            <button onclick="saveSeparationDiary()">Guardar Registro</button>
+            <p id="feedback"></p>
+        </section>
+        <section class="references">
+            <h2>Referencias</h2>
+            <ul>
+                <li>American Psychiatric Association. (2020). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.</li>
+                <li>Eisen, A. R., & Silverman, W. K. (1993). The revised manifest anxiety scale for children: Factor structure and concurrent validity. *Journal of Clinical Child Psychology*, 22(4), 330-338. https://doi.org/10.1207/s15374424jccp2204_3</li>
+                <li>Kendall, P. C., Chansky, T. E., & Siqueland, L. (1992). Cognitive-behavioral therapy for anxiety disordered youth. *Advances in Behaviour Research and Therapy*, 14(3), 199-223. https://doi.org/10.1016/0146-6402(92)90028-A</li>
+            </ul>
+        </section>
+        <button class="back-button" onclick="goBack()">Volver al Menú</button>
+    </main>
+    <script src="js/separation-anxiety.js"></script>
+</body>
+</html>
